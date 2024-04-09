@@ -12,12 +12,10 @@ const MainNavigation = () => {
 
   const openDrawerHandler = () => {
     setDrawerIsOpen(true);
-    console.log('OPEN drawer', drawerIsOpen);
   };
 
   const closeDrawerHandler = () => {
     setDrawerIsOpen(false);
-    console.log('close drawer', drawerIsOpen);
   };
 
   return (
